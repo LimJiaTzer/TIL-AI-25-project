@@ -8,7 +8,8 @@ We are proud to present our **innovative solutions** and the **cutting-edge mode
 📄 **Challenge Requirements:**  
 You can find the detailed specifications for each challenge [here on the official wiki](https://github.com/til-ai/til-25/wiki/Challenge-specifications).  
 
-<img src="https://github.com/user-attachments/assets/b2180a0f-a471-473f-b5d0-4691637ec267" alt="Top 8 Showcase" width="600"/>  
+![photo_2025-06-12_23-08-46](https://github.com/user-attachments/assets/68a36f25-4ab9-4cdf-8dc2-d1639a5c4f3e)  
+
 
 ---
 
