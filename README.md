@@ -1,4 +1,4 @@
-# 🏆 DSTA BRAINHACK 2025 TIL-AI Hackathon Showcase 🚀
+# 🏆 DSTA BRAINHACK 2025 TIL-AI 🚀
 
 Welcome to our Team Artificial Idiots's repository for **DSTA Brainhack TIL-AI 2025**! This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization in the hackathon.
 
