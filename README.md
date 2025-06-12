@@ -1,6 +1,6 @@
 # 🏆 DSTA BRAINHACK 2025 TIL-AI Hackathon Showcase 🚀
 
-Welcome to our Team Artificial Idiots's repository for the **TIL-AI 2025 Hackathon**! This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization.
+Welcome to our Team Artificial Idiots's repository for **DSTA Brainhack TIL-AI 2025**! This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization in the hackathon.
 
 We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.
 
@@ -10,7 +10,7 @@ You can find the detailed specifications for each challenge [here on the officia
 <div align="center">
   <img src="https://github.com/user-attachments/assets/68a36f25-4ab9-4cdf-8dc2-d1639a5c4f3e" width="250">
   <br>
-  <em>Finalist Badge</em>
+  <em>DSTA Brainhack Finalist Badge</em>
 </div>
 
 ## 🏅 Competition Achievement
@@ -135,7 +135,7 @@ We framed this as a graph theory problem, finding the optimal ordering of strips
 - Accuracy: 0.985
 - Speed: 0.978
 
-## 📦 Server & Deployment
+### 6. 📦 Server & Deployment
 
 **Challenge:** Package all models into a robust, deployable, and efficient offline system.
 
@@ -149,12 +149,12 @@ We framed this as a graph theory problem, finding the optimal ordering of strips
 
 This hackathon was an intense and rewarding experience that bridged the gap between theoretical knowledge and practical, industry-relevant skills.
 
-**For aspiring AI Engineers:**
+**AI Engineering Key Competencies:**
 *   **Models are only half the story:** The best model is useless if it's too slow. We learned that optimization techniques like **quantization (TensorRT), Flash Attention, and model distillation** are not just "nice-to-haves"—they are essential for building practical AI systems.
 *   **The power of fine-tuning:** Pre-trained models are a great starting point, but achieving state-of-the-art performance requires meticulous **fine-tuning** on domain-specific data. Data quality and augmentation are as important as the model architecture itself.
 *   **Hybrid systems are often superior:** Combining deep learning models (DQN) with classical algorithms (A*, FSMs) can create robust and reliable systems. Don't be afraid to use heuristics to constrain the model's action space and prevent catastrophic failures.
 
-**For aspiring Software Engineers:**
+**Software Engineering Key Competencies:**
 *   **MLOps is crucial:** Our success depended heavily on our ability to quickly package, deploy, and version our models. Skills in **Docker, container orchestration, and API design (FastAPI)** are critical for managing the complexity of modern AI applications.
 *   **Design for failure:** In a high-pressure environment, things will break. Building independent, containerized services meant that a failure in one component (e.g., ASR) didn't bring down the entire system.
 *   **Performance is a feature:** Writing clean code is important, but writing *performant* code is critical. Understanding how to leverage tools like asynchronous programming and build lightweight containers can make a huge difference in the final product.
