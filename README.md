@@ -5,6 +5,9 @@ This project showcases our collective effort in tackling a diverse set of AI and
 
 We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.  
 
+📄 **Challenge Requirements:**  
+You can find the detailed specifications for each challenge [here on the official wiki](https://github.com/til-ai/til-25/wiki/Challenge-specifications).
+
 <img src="https://github.com/user-attachments/assets/254ef6cb-afb7-47ee-8348-4450a2fbc0a3" alt="Team Photo" width="800"/>
 
 ---
@@ -14,7 +17,7 @@ We are proud to present our **innovative solutions** and the **cutting-edge mode
 This project was a collaborative effort by a dedicated and passionate team:
 
 - Spencer  
-- **Jia Tzer**  
+- Jia Tzer  
 - Jia Jun  
 - Gabriel  
 - Joven  
