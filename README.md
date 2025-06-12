@@ -1,6 +1,7 @@
 # 🏆 BRAINHACK TIL-AI 2025 Challenges Showcase 🚀
 
 Welcome to our team's repository for the TIL-AI 2025 Challenges! This project showcases our collective effort in tackling a diverse set of AI and machine learning problems, from audio processing and computer vision to reinforcement learning. We are proud to present our innovative solutions and the cutting-edge models we implemented.
+![image](https://github.com/user-attachments/assets/510a730a-f46f-4c96-99c0-524f9d306454)
 
 ---
 
