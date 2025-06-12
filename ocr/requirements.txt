@@ -1,0 +1,16 @@
+# Web framework and ASGI server
+fastapi==0.115.1
+uvicorn[standard]==0.27.1
+
+# Core ML for DocTR (PyTorch backend)
+opencv-python
+
+# DocTR library with PyTorch support
+python-doctr[torch] 
+
+# Image processing and numerical operations
+Pillow
+
+# Utilities (if still needed for other parts of your project)
+packaging>=23.0 
+huggingface_hub>=0.16.4

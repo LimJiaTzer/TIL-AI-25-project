@@ -1,0 +1,13 @@
+til submit artificial-idiots-cv:latest
+
+docker build -t artificial-idiots-cv:latest .
+
+docker run --gpus all -p 5002:5002 artificial-idiots-cv:latest
+
+docker ps
+
+docker kill CONTAINER_ID
+
+docker rmi -f
+
+docker system prune

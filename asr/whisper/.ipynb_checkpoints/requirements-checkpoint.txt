@@ -1,0 +1,22 @@
+# Web framework and ASGI server
+fastapi==0.115.1
+uvicorn[standard]==0.27.1
+
+# ASR and ML
+transformers==4.37.0
+
+# Audio + numerical
+numpy==1.26.4
+soundfile==0.13.1
+
+# Version parsing
+packaging>=23.0
+
+# (Optional) builder‐stage only:
+huggingface_hub>=0.16.4
+
+# (Optional) for BetterTransformer
+optimum>=1.8.0
+
+# (Optional) for FlashAttention
+setuptools

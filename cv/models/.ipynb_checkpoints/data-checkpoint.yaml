@@ -1,0 +1,5 @@
+
+train: /home/jupyter/til-25/cv/models/images/train
+val: /home/jupyter/til-25/cv/models/images/val
+nc: 18
+names: ['cargo aircraft', 'commercial aircraft', 'drone', 'fighter jet', 'fighter plane', 'helicopter', 'light aircraft', 'missile', 'truck', 'car', 'tank', 'bus', 'van', 'cargo ship', 'yacht', 'cruise ship', 'warship', 'sailboat']
