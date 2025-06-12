@@ -12,9 +12,9 @@ You can find the detailed specifications for each challenge [here on the officia
 
 ---
 
-## 🏆 Competition Achievement
+## 🏅 Competition Achievement
 
-We are thrilled to announce that our team achieved a **Top 8** placement in the TIL-AI 2025 competition!
+🎉 We are proud to have placed in the **Top 8** teams at the **TIL-AI 2025** competition!
 
 ---
 
@@ -32,7 +32,7 @@ This project was a collaborative effort by a dedicated and passionate team:
 
 ## 🛠️ Projects & Solutions
 
-Here's a breakdown of the challenges we tackled and the methodologies we employed to solve them.
+Below is a breakdown of the challenges we tackled and the methodologies we employed to solve them.
 
 ---
 
@@ -41,9 +41,9 @@ Here's a breakdown of the challenges we tackled and the methodologies we employe
 **Challenge:** Accurately transcribe spoken audio into text.
 
 **Our Approach:**  
-We used a dual-model approach:
-- **Primary Model:** [`nvidia/parakeet-tdt-0.6b-v2`](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) – a high-accuracy, efficient model for transcription tasks.
-- **Secondary/Benchmark Model:** [`distil-whisper/distil-large-v3.5`](https://huggingface.co/distil-whisper/distil-large-v3.5) – a lightweight, distilled version of Whisper offering robustness across diverse audio inputs.
+We used a dual-model architecture:
+- **Primary Model:** [`nvidia/parakeet-tdt-0.6b-v2`](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) – high accuracy and low latency.
+- **Secondary Model:** [`distil-whisper/distil-large-v3.5`](https://huggingface.co/distil-whisper/distil-large-v3.5) – robust performance across diverse accents and noise levels.
 
 ---
 
@@ -52,11 +52,11 @@ We used a dual-model approach:
 **Challenge:** Detect and identify specific objects within images with high speed and accuracy.
 
 **Our Approach:**  
-- **Model:** [`YOLOv8`](https://docs.ultralytics.com/models/yolov8/) – fine-tuned on a custom dataset.
+- **Model:** [`YOLOv8`](https://docs.ultralytics.com/models/yolov8/) – fine-tuned on our custom dataset.
 - **Optimization:**  
-  We converted the trained PyTorch model to a **TensorRT** `.engine` file to:
-  - Reduce inference latency.
-  - Accelerate evaluation on compatible GPU hardware.
+  Converted the PyTorch model to a **TensorRT `.engine`** file to:
+  - Minimize latency.
+  - Maximize throughput on GPU during inference.
 
 ---
 
@@ -65,9 +65,10 @@ We used a dual-model approach:
 **Challenge:** Extract text from scanned documents and images.
 
 **Our Approach:**  
-We deployed [`stepfun-ai/GOT-OCR-2.0-hf`](https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf), a transformer-based OCR model, which excels at:
-- Recognizing complex text layouts.
-- Extracting accurate text even under challenging visual conditions.
+We implemented [`stepfun-ai/GOT-OCR-2.0-hf`](https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf), a transformer-based OCR model that excels in:
+- Complex layouts.
+- Challenging visual conditions.
+- Multilingual and stylized text extraction.
 
 ---
 
@@ -75,24 +76,24 @@ We deployed [`stepfun-ai/GOT-OCR-2.0-hf`](https://huggingface.co/stepfun-ai/GOT-
 
 **Challenge:** Develop an agent to navigate a complex environment guarded by intelligent opponents.
 
-#### Part 1: Heuristic Guard Agent (Non-Learning)
+#### Part 1: Heuristic Guard Agent
 
-- **Design:** A Finite State Machine (FSM) governs Guard behavior.
+- **Architecture:** Finite State Machine (FSM).
 - **States:**
-  - `PATROLLING` — follows preset paths.
-  - `HUNTING` — chases visible Scouts.
-  - `ROAMING` — searches random areas.
-- **Pathfinding:** Uses Dijkstra's algorithm on a precomputed map graph.
+  - `PATROLLING`: Follows fixed waypoints.
+  - `HUNTING`: Pursues detected Scouts.
+  - `ROAMING`: Searches areas based on last known Scout location.
+- **Pathfinding:** Efficient navigation via Dijkstra's algorithm on a precomputed graph.
 
 #### Part 2: Hybrid Reinforcement Learning Scout
 
-- **Core Model:** Deep Q-Network (DQN) with a CNN visual input pipeline.
-- **Hybrid Control Architecture:**
-  - **Evasion Layer:** Rule-based override triggers when a Guard is nearby.
-  - **Anti-Repetition Layer:** Heuristic avoids action loops by encouraging exploration.
-  - **Default Mode:** DQN chooses the next action in safe conditions.
+- **Model:** Deep Q-Network (DQN) with a CNN-based observation pipeline.
+- **Hybrid Architecture:**
+  - **Evasion Layer:** Overrides DQN if a Guard is nearby.
+  - **Anti-Repetition Layer:** Prevents action loops using movement memory.
+  - **Policy Layer:** Default DQN actions when the agent is safe.
 
-This hybrid design combines the pattern recognition of deep learning with the reliability of hand-coded heuristics, yielding a robust and adaptive agent.
+This blend of heuristics and deep learning results in a resilient and adaptive agent.
 
 ---
 
@@ -101,12 +102,12 @@ This hybrid design combines the pattern recognition of deep learning with the re
 **Challenge:** Reconstruct a shredded document from vertical strips.
 
 **Our Approach:**  
-- Treated as a **Traveling Salesperson Problem (TSP)**.
-- **Cost Metric:** Dissimilarity score (e.g., Sum of Squared Differences) between strip edges.
-- **Solution Strategy:**  
-  - Constructed a cost matrix from edge comparisons.
-  - Fed into a TSP solver (e.g., LKH or other libraries).
-  - Output: Optimized strip order for accurate document reconstruction.
+- Modeled the task as a **Traveling Salesperson Problem (TSP)**.
+- **Scoring:** Used pixel-based dissimilarity (e.g., Sum of Squared Differences) between strip edges.
+- **Solution:**
+  - Generated a cost matrix.
+  - Fed it into a TSP solver (e.g., LKH).
+  - Output the optimal order of strips for accurate reconstruction.
 
 ---
 
@@ -115,5 +116,5 @@ This hybrid design combines the pattern recognition of deep learning with the re
 Thank you for visiting our repository!  
 We hope our work offers inspiration and valuable insights into solving complex AI challenges.
 
-Feel free to explore, fork, and reach out if you're interested in collaborating!
+Feel free to ⭐ star, 🍴 fork, or reach out if you're interested in learning more or collaborating!
 
