@@ -5,7 +5,7 @@ This project showcases our collective effort in tackling a diverse set of AI and
 
 We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.  
 
-![image](https://github.com/user-attachments/assets/254ef6cb-afb7-47ee-8348-4450a2fbc0a3)
+<img src="https://github.com/user-attachments/assets/254ef6cb-afb7-47ee-8348-4450a2fbc0a3" alt="Team Photo" width="800"/>
 
 ---
 
@@ -33,10 +33,8 @@ Here's a breakdown of the challenges we tackled and the methodologies we employe
 
 **Our Approach:**  
 We used a dual-model approach:
-- **Primary Model:** [NVIDIA Parakeet](https://github.com/NVIDIA/NeMo) – known for high accuracy and efficiency.
-- **Secondary/Benchmark Model:** [OpenAI Whisper](https://github.com/openai/whisper) – robust across diverse audio conditions.
-
-This setup allowed us to ensure high-quality transcriptions across a variety of inputs and noise levels.
+- **Primary Model:** [`nvidia/parakeet-tdt-0.6b-v2`](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2) – a high-accuracy, efficient model for transcription tasks.
+- **Secondary/Benchmark Model:** [`distil-whisper/distil-large-v3.5`](https://huggingface.co/distil-whisper/distil-large-v3.5) – a lightweight, distilled version of Whisper offering robustness across diverse audio inputs.
 
 ---
 
@@ -45,7 +43,7 @@ This setup allowed us to ensure high-quality transcriptions across a variety of 
 **Challenge:** Detect and identify specific objects within images with high speed and accuracy.
 
 **Our Approach:**  
-- **Model:** YOLOv8 – fine-tuned on a custom dataset.
+- **Model:** [`YOLOv8`](https://docs.ultralytics.com/models/yolov8/) – fine-tuned on a custom dataset.
 - **Optimization:**  
   We converted the trained PyTorch model to a **TensorRT** `.engine` file to:
   - Reduce inference latency.
@@ -58,7 +56,7 @@ This setup allowed us to ensure high-quality transcriptions across a variety of 
 **Challenge:** Extract text from scanned documents and images.
 
 **Our Approach:**  
-We deployed the **stepfun-ai/GOT-OCR-2.0-hf** transformer model, which excels at:
+We deployed [`stepfun-ai/GOT-OCR-2.0-hf`](https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf), a transformer-based OCR model, which excels at:
 - Recognizing complex text layouts.
 - Extracting accurate text even under challenging visual conditions.
 
@@ -109,3 +107,4 @@ Thank you for visiting our repository!
 We hope our work offers inspiration and valuable insights into solving complex AI challenges.
 
 Feel free to explore, fork, and reach out if you're interested in collaborating!
+
