@@ -1,0 +1,12 @@
+# Dependencies for RL.
+
+fastapi
+uvicorn[standard]
+numpy
+pettingzoo>=1.23.0  # Specify a version or range if known, PettingZoo has had API changes
+gymnasium>=0.28.0 # Specify a version or range, Gymnasium also evolves
+pygame            # Safer to keep for the environment's rendering capabilities
+mazelib           # Definitely needed by your custom environment
+
+supersuit
+pettingzoo[classic]
