@@ -7,14 +7,21 @@ We are proud to present our **innovative solutions** and the **cutting-edge mode
 📄 **Challenge Requirements:**
 You can find the detailed specifications for each challenge [here on the official wiki](https://github.com/til-ai/til-25/wiki/Challenge-specifications).
 
-<img src="https://github.com/user-attachments/assets/68a36f25-4ab9-4cdf-8dc2-d1639a5c4f3e" width="500">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/68a36f25-4ab9-4cdf-8dc2-d1639a5c4f3e" width="250">
+  <br>
+  <em>Finalist Badge</em>
+</div>
 
 ## 🏅 Competition Achievement
 
-As the 1st ranked team in the online qualifiers with over a 100 teams, we secured a spot in the physical semi-finals & finals.
-<img src="https://imgur.com/a/xecx1kj">
+🎉 After a tough and gruelling fight, we are proud to have placed under the **Top 8** teams at the **TIL-AI 2025** competition!
 
-After a tough and gruelling fight, we are proud to have placed under the **Top 8** teams at the **TIL-AI 2025** competition!
+<div align="center">
+  <img src="./TIL-25_QUALIFIERS.PNG" width="850">
+  <br>
+  <em>As the 1st ranked team in the online qualifiers, we secured our spot in the main event.</em>
+</div>
 
 ## 👥 Our Team
 
