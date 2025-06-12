@@ -3,7 +3,8 @@
 Welcome to our team's repository for the **TIL-AI 2025 Challenges**!  
 This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization.
 
-We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.
+We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.  
+
 ![image](https://github.com/user-attachments/assets/254ef6cb-afb7-47ee-8348-4450a2fbc0a3)
 
 ---
