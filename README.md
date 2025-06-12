@@ -15,7 +15,7 @@ You can find the detailed specifications for each challenge [here on the officia
 
 ## 🏅 Competition Achievement
 
-🎉 After a tough and gruelling fight, we are proud to have placed under the **Top 8** teams at the **TIL-AI 2025** competition!
+🎉 After a tough and gruelling fight, we are proud to have placed under the **Top 8** teams at **TIL-AI 2025**!
 
 <div align="center">
   <img src="./TIL-25_QUALIFIERS.PNG" width="850">
