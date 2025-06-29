@@ -1,6 +1,7 @@
 # 🏆 DSTA BRAINHACK 2025 TIL-AI 🚀
 
-Welcome to our Team Artificial Idiots's repository for **DSTA Brainhack TIL-AI 2025**! This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization in the hackathon.
+Welcome to our Team Artificial Idiots's repository for **DSTA Brainhack TIL-AI 2025**! 
+This project showcases our collective effort in tackling a diverse set of AI and machine learning problems—from audio processing and computer vision to reinforcement learning and optimization in the hackathon.
 
 We are proud to present our **innovative solutions** and the **cutting-edge models** we implemented.
 
@@ -18,7 +19,7 @@ Our CV model is currently deployed on [`Hugging Face`](https://huggingface.co/sp
 
 ## 🏅 Competition Achievement
 
-🎉 After a tough and gruelling fight, we are proud to have placed under the **Top 8** teams at **TIL-AI 2025**!
+🎉 After a tough and gruelling fight, we are proud to have been placed under the **Top 8** teams at **TIL-AI 2025**!
 
 <div align="center">
   <img src="./TIL-25_QUALIFIERS.PNG" width="850">
